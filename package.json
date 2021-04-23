@@ -1,0 +1,30 @@
+{
+  "name": "miguelwportfolio",
+  "version": "1.0.0",
+  "description": "miguel W web dev portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass public/css/sass -o public/css",
+    "sass-watch": "npm run sass && npm run sass -- -w",
+    "nodemon-watch": "nodemon --ext js,ejs --ignore public"
+  },
+  "author": "MW",
+  "license": "ISC",
+  "engines": {
+    "node": "15.10.0",
+    "npm": "6.14.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-livereload": "^0.6.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "livereload": "^0.9.3",
+    "node-sass": "^5.0.0",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7"
+  }
+}
