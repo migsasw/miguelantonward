@@ -73,6 +73,7 @@ header .top-navigation .links {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 100vh;
 }
 
 .main img {
@@ -82,7 +83,7 @@ header .top-navigation .links {
 }
 
 .main h1, .main .bio, .main p, .main hr {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 .main .lastparagraph {
@@ -125,6 +126,7 @@ footer p {
 }
 
 footer .bottom-navigation {
+  position: fixed;
   width: 100%;
   bottom: 0;
   background: #1A2639;
