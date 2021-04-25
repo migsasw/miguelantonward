@@ -97,9 +97,8 @@ header .top-navigation .links {
 //footer
 footer {
     p {
-        margin-bottom: 10em;
-        width: 80%;
-        margin: auto;
+        color: $primary;
+        font-size: 12px;
     }
     .bottom-navigation {
         position: fixed;
@@ -108,8 +107,8 @@ footer {
         background: $accentColor;
         display: flex;
         justify-content: space-between;
-        padding: 1em 4em;
-
+        padding: 0.8em 2em;
+        text-align: center;
     }
     .material-icons {
         color: $primary;

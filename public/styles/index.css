@@ -120,9 +120,8 @@ header .top-navigation .links {
 }
 
 footer p {
-  margin-bottom: 10em;
-  width: 80%;
-  margin: auto;
+  color: #F3F4ED;
+  font-size: 12px;
 }
 
 footer .bottom-navigation {
@@ -136,7 +135,8 @@ footer .bottom-navigation {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1em 4em;
+  padding: 0.8em 2em;
+  text-align: center;
 }
 
 footer .material-icons {
